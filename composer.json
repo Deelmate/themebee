@@ -1,0 +1,46 @@
+{
+    "name": "deelmate/themebee",
+    "description": "Theme and asset management for laravel 9",
+    "keywords": ["theme", "child-theme", "multi", "themebee", "asset", "management", "laravel", "lumen"],
+    "homepage": "https://github.com/deelmate/themebee",
+    "license": "CC-BY-3.0",
+    "authors": [
+        {
+            "name": "Deelmate",
+            "email": "connect.deelify@gmail.com"
+        }
+    ],
+    "require": {
+        "hassankhan/config": "^3.1",
+        "symfony/yaml": "^6.2.7"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.3",
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deelmate\\Themebee\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Deelmate\\Themebee\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deelmate\\Themebee\\Providers\\ThemebeeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "Deelmate\\Themebee\\Facades\\Theme"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "suggest": {
+        "symfony/yaml": "Allows for parsing of YAML theme info and change log files"
+    }
+}

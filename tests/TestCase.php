@@ -2,7 +2,6 @@
 
 namespace Deelmate\Themebee\Tests;
 
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
 use Deelmate\Themebee\Providers\ThemebeeServiceProvider;
 
 /**

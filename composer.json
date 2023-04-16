@@ -11,10 +11,13 @@
         }
     ],
     "require": {
-        "hassankhan/config": "^3.1",
-        "symfony/yaml": "^6.2.7"
+        "hassankhan/config": "^2.1",
+        "symfony/yaml": "^5.2"
     },
-    "require-dev": {},
+    "require-dev": {
+        "graham-campbell/testbench": "^3.3",
+        "phpunit/phpunit": "^5.0"
+    },
     "autoload": {
         "psr-4": {
             "Deelmate\\Themebee\\": "src/"

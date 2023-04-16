@@ -11,11 +11,10 @@
         }
     ],
     "require": {
+        "hassankhan/config": "^3.1",
         "symfony/yaml": "^6.2.7"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^5.0"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "Deelmate\\Themebee\\": "src/"
